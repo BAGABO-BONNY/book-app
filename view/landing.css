@@ -1,0 +1,20 @@
+*{
+    scroll-behavior: smooth;
+}
+#homePage{
+    background-image: url('./banner-bg.png');
+}
+.form{
+    visibility: hidden;
+    position: fixed;
+    inset: 0;
+    background: #000;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    transition: visibility 0.5s ease;
+    
+}
+.visibility{
+    visibility:visible;
+}
